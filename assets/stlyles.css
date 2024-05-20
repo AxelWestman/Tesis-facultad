@@ -1,0 +1,26 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aqua
+}
+
+.navbarr{
+    display: flex; 
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin: 0;
+}
+
+.unordered-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section{
+    width: 100%;
+    border: 1px solid red;
+}
