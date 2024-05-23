@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color:aqua
+    background-color:white;
 }
 
 .navbarr{
@@ -13,11 +13,24 @@ body{
     height: 60px;
     align-items: center;
     margin: 0;
+    background-color: #4880f7;
+}
+
+.fa-bars{
+    font-size: 40px;
+    margin: 0 45px;
+}
+
+.lista-paginas{
+    width: 100%;
+    align-items: center;
 }
 
 .unordered-list{
     display: flex;
     flex-direction: column;
+    list-style: none;
+    padding: 0;
 }
 
 .first-section{
