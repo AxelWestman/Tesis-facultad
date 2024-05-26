@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
 *{
     margin: 0 auto;
     box-sizing: border-box;
@@ -5,6 +8,11 @@
 
 body{
     background-color:#4880f7;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .navbarr{
@@ -36,6 +44,16 @@ body{
     flex-direction: column;
     list-style: none;
     padding: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.unordered-list li{
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 
 .first-section{
@@ -48,4 +66,76 @@ body{
     background-image: url(/images/legendofelda2.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.second-section{
+    width: 100%;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.third-section{
+    width: 100%;
+}
+
+.arrow-up{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    top: 750px;
+    left: 350px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.arrow-up i{
+    font-size: 35px;
+}
+
+.card{
+    width: 50%;
+    height: 150px;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    color: white;
+}
+
+footer h2{
+    font-family: "Pixelify Sans", sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.social{
+      margin-top: 10px;
+}
+
+.social-logos{
+    margin-left: 10px;
+}
+
+.social-logos img{
+    width: 10%;
+}
+
+.paragraph-footer{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
 }
