@@ -7,39 +7,13 @@
 }
 
 body{
-    background-color:#4880f7 !important;
+    background-color:#4880f7;
 }
 
 a{
-    text-decoration: none !important;
-    color: black !important;
+    text-decoration: none;
+    color: black;
 }
-
-.prueba{
-    height: auto;
-    width: 100%;
-}
-
-.prueba h1{
-    font-family: "Pixelify Sans", sans-serif;
-    color: white;
-    margin-bottom: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.prueba p{
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
-    font-size: 20px;
-    text-align:center;
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 
 .navbarr{
     display: flex; 
@@ -82,17 +56,12 @@ a{
     margin-bottom: 10px
 }
 
-.card{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 footer{
     width: 100%;
     height: auto;
     background-color: black;
     position: relative;
-    bottom: -16px;
+    bottom: 0;
     color: white;
 }
 
