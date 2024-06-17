@@ -15,6 +15,10 @@ a{
     color: black;
 }
 
+.nav-desktop{
+    display: none;
+}
+
 .navbarr{
     display: flex; 
     width: 100%;
@@ -152,7 +156,7 @@ footer h2{
 }
 
 .social-logos img{
-    width: 10%;
+    width: 45px;
 }
 
 .paragraph-footer{
@@ -163,4 +167,36 @@ footer h2{
     font-size: 13px;
     text-align: center;
     margin-top: 15px;
+}
+
+@media (min-width: 1024px){
+    #menu-hamburguesa{
+        display: none;
+    }
+
+    .nav-desktop{
+        display: block;
+        margin: 0px 10px 0px 0px;
+    }
+     
+    .unordered-list-desktop{
+        display: flex;
+        flex-direction:row;
+        list-style: none;
+        padding: 0;
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400px;
+        font-style: normal;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    li{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+
+
 }
