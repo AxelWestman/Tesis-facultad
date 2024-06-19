@@ -168,6 +168,12 @@ footer h2{
         margin-left: 10px;
     }
 
+    li > a:hover{
+        border: none;
+        cursor: pointer;
+        text-shadow: 0px 6px 10px rgba(0,0,0,0.76);
+    }
+
 
 
 }

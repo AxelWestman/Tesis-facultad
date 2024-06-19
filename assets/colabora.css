@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#4880f7 !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.nav-desktop{
+    display: none;
+}
+
+.prueba{
+    height: auto;
+    width: 100%;
+}
+
+.prueba h1{
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.prueba p{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+    text-align:center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+.navbarr{
+    display: flex; 
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    margin: 0;
+    background-color: #4880f7;
+    position: relative;
+    z-index: 2;
+}
+
+.fa-bars{
+    font-size: 40px;
+    margin: 0 45px;
+}
+
+.lista-paginas{
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+}
+
+.unordered-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.unordered-list li{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    position: absolute;
+    color: white;
+}
+
+footer h2{
+    font-family: "Pixelify Sans", sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.social{
+      margin-top: 10px;
+}
+
+.social-logos{
+    margin-left: 10px;
+}
+
+.social-logos img{
+    width: 45px;
+}
+
+.paragraph-footer{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (min-width: 1024px){
+    #menu-hamburguesa{
+        display: none;
+    }
+
+    .nav-desktop{
+        display: block;
+        margin: 0px 10px 0px 0px;
+    }
+     
+    .unordered-list-desktop{
+        display: flex;
+        flex-direction:row;
+        list-style: none;
+        padding: 0;
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400px;
+        font-style: normal;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    li{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    li > a:hover{
+        border: none;
+        cursor: pointer;
+        text-shadow: 0px 6px 10px rgba(0,0,0,0.76);
+    }
+
+
+
+}
