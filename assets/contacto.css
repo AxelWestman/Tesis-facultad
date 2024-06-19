@@ -207,7 +207,14 @@ footer h2{
         width: 55%;
     }
 
-    
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: initial;
+        bottom: 0;
+        color: white;
+    }
 
 
 
