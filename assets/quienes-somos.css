@@ -142,6 +142,12 @@ footer h2{
 }
 
 @media (min-width: 1024px){
+
+    body{
+        background-image: url(../images/fondo\ web.png);
+        background-size: contain;
+    }
+
     #menu-hamburguesa{
         display: none;
     }
@@ -178,8 +184,15 @@ footer h2{
         height: 88vh;
     }
 
+    .about-section{
+        background-color: #4880f7;
+        margin-top: 0;
+        height: 88vh;
+    }
+
     .logo-container{
         width: 30%;
+        z-index: 1;
     }
 
     .logo-container img{

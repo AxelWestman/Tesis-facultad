@@ -133,8 +133,14 @@ footer > p{
 }
 
 @media (min-width: 1024px){
+
     #menu-hamburguesa{
         display: none;
+    }
+
+    body{
+        background-image: url(../images/fondo\ web.png);
+        background-size: contain;
     }
 
     .nav-desktop{
