@@ -74,6 +74,13 @@ a{
     border: 1px solid red;
 }
 
+.page-box{
+    width: 50%;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
 .third-section{
     width: 100%;
 }
@@ -96,11 +103,54 @@ a{
 }
 
 .card{
-    width: 50%;
+    width: 16.4em;
     height: 150px;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    background-color: white;
+    box-shadow: 0px 7px 24px 8px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 0px 7px 24px 8px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 7px 24px 8px rgba(0,0,0,0.48);
+    z-index: 0;
+}
+
+.card p{
+    font-family: 'Pixelify Sans';
+    text-align: center;
+    margin-top: 30px;
+    font-size: large;
+    padding: 10px;
+    z-index: 2;
+}
+
+.inside-card{
+    width: 20em;
+    height: 100px;
+    margin-top: -60px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-card h2{
+    margin-top: -80px;
+    font-family: 'Pixelify Sans';
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    color: white;
+    z-index: 2;
+}
+
+.inside-card-cartel{
+    width: 20em;
+    filter:drop-shadow(0px 5px 20px black);
+    z-index: 1;
 }
 
 footer{
@@ -191,7 +241,15 @@ footer h2{
     .third-section{
         background-color: #4880f7;
         width: 70%;
-        margin-top: -20px;
+        margin-top: 0px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+      
     }
 
 
