@@ -7,8 +7,7 @@
 }
 
 body{
-    background-image: url(../images/fondo\ web.png);
-    background-size: contain;
+    background-color: #4880f7;
 }
 
 a{
@@ -89,7 +88,7 @@ a{
     padding: 10px;
 }
 
-form { max-width:420px; margin:50px auto; }
+form { max-width:420px; margin:0px auto; }
 
 .feedback-input {
   color:black;
@@ -171,6 +170,21 @@ footer h2{
 }
 
 @media (min-width: 1024px){
+
+    body{
+        background-image: url(../images/fondo\ web.png);
+        background-size: contain;
+    }
+
+
+
+
+    main{
+        width: 70%;
+        background-color: #4880f7;
+        height: 100vh;
+    }
+
     #menu-hamburguesa{
         display: none;
     }
@@ -208,6 +222,17 @@ footer h2{
         width: 55%;
     }
 
+    .introduction{
+        width: 100%;
+        background-color: #4880f7;
+    }
+
+    .form-section{
+        width: 100%;
+        background-color: #4880f7;
+        height: 24em;
+    }
+
     footer{
         width: 100%;
         height: auto;
@@ -215,6 +240,11 @@ footer h2{
         position: initial;
         bottom: 0;
         color: white;
+        position: unset
+    }
+
+    footer h2{
+        margin-top: 0px;
     }
 
 
