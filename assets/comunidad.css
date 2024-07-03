@@ -70,6 +70,22 @@ a{
     width: 100%;
 }
 
+.titulo h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.paragraph-box p{
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
 .paragraph-box{
     text-align: center;
 }
@@ -86,7 +102,7 @@ a{
 
 .twitter-box{
     width: 80%;
-    height: 150px;
+    height: 180px;
     background-color: black;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -126,6 +142,12 @@ a{
    height: 80px; 
    padding: 10px;
 }
+
+.texto p{
+    margin-bottom: 15px;;
+}
+
+
 
 footer{
     width: 100%;
@@ -170,6 +192,11 @@ footer h2{
         background-size: contain;
     }
 
+    main{
+        width: 70%;
+        background-color: #4880f7;
+    }
+
     #menu-hamburguesa{
         display: none;
     }
@@ -200,6 +227,10 @@ footer h2{
         border: none;
         cursor: pointer;
         text-shadow: 0px 6px 10px rgba(0,0,0,0.76);
+    }
+
+    footer h2{
+        margin-top: 0;
     }
 
 }
