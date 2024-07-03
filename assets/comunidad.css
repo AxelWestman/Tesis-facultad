@@ -60,6 +60,73 @@ a{
     margin-bottom: 10px
 }
 
+.titulo{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.paragraph-box{
+    text-align: center;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.twitter-box{
+    width: 80%;
+    height: 150px;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.avatar-name{
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:left ;
+    gap: 15px;
+}
+
+.avatar-photo{
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid white;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.avatar-name img{
+    width: 100%;
+}
+
+.avatar-name h2{
+    margin: 0;
+}
+
+.texto{
+   width: 95%;
+   height: 80px; 
+   padding: 10px;
+}
+
 footer{
     width: 100%;
     height: auto;
