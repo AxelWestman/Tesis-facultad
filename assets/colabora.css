@@ -93,26 +93,41 @@ main{
 }
 
 .money-section{
-    border: 1px solid red;
     width: 100%;
     height: 89vh;
     color: white;
     font-family: 'Pixelify Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .money-section h1{
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .money-box{
-    width: 80%;
-    border: 1px solid red;
-    height: 500px;
+    width: 100%;
     text-align: center;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-dinero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-dinero img{
+    width: 15em;
+    margin-top: 50px;
 }
 
 footer{
@@ -161,6 +176,7 @@ footer h2{
     main{
         width: 70%;
         background-color: #4880f7;
+        height: 100vh;
     }
 
     #menu-hamburguesa{
@@ -194,6 +210,21 @@ footer h2{
         border: none;
         cursor: pointer;
         text-shadow: 0px 6px 10px rgba(0,0,0,0.76);
+    }
+
+    .money-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-dinero{
+        flex-direction: row;
+    }
+
+    .paypal{
+        width:25em !important;
     }
 
     footer h2{
