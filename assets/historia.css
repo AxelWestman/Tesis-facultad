@@ -15,6 +15,51 @@ a{
     color: black;
 }
 
+main{
+    width: 100%;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.title-section{
+    text-align: center;
+    color: white;
+}
+
+.title-section h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.title-paragraph{
+    width: 100%;
+    text-align: center;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.history-paragraph{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.history-paragraph p{
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 20px;
+    text-align:center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .nav-desktop{
     display: none;
 }
