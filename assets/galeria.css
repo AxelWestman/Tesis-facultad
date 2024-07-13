@@ -188,6 +188,14 @@ footer > p{
         flex-wrap: wrap;
     }
 
+    .prueba{
+        margin: 70px 0px 0px 0px;
+    }
+
+    .card{
+        width: 30% !important;
+    }
+
 
 
     footer h2{
@@ -195,3 +203,12 @@ footer > p{
     }
 
 }
+
+@media (min-width: 1440px){
+    
+    .card{
+        width: 260px !important;
+    }
+
+}
+

@@ -126,7 +126,7 @@ main{
 }
 
 .logo-dinero img{
-    width: 15em;
+    width: 9em;
     margin-top: 50px;
 }
 
@@ -177,6 +177,9 @@ footer h2{
         width: 70%;
         background-color: #4880f7;
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #menu-hamburguesa{
@@ -217,6 +220,11 @@ footer h2{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .money-box{
+        
+        margin-bottom: 0px;
     }
 
     .logo-dinero{
