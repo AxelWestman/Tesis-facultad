@@ -236,6 +236,26 @@ footer h2{
         background-color: #4880f7;
         width: 70%;
         margin-bottom: 0;
+        margin-top: -5px;
+        border: initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-box{
+        height: auto;
+        border-radius: initial;
+        border: initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Pixelify Sans', sans-serif;
+        color: white;
+    }
+
+    .page-box img{
+        width: 31em;
     }
 
     .third-section{
@@ -248,8 +268,12 @@ footer h2{
         align-items: center;
     }
 
+    .third-section a{
+        margin: 0px;
+    }
+
     .card{
-      
+      margin: 36px;
     }
 
     footer h2{
