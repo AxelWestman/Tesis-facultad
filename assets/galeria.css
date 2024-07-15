@@ -111,8 +111,20 @@ footer > p{
     margin: 0;
 }
 
+address{
+    margin-left: 10px !important;
+    color: white !important;
+    padding: 10px !important;
+    font-style: italic !important;
+}
+
+address a{
+    color: white !important;
+}
+
 .social{
       margin-top: 10px;
+      margin-left: 10px;
 }
 
 .social-logos{

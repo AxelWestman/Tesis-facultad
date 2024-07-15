@@ -147,7 +147,11 @@ a{
     margin-bottom: 15px;;
 }
 
-
+.like-comment{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
 
 footer{
     width: 100%;
@@ -164,8 +168,19 @@ footer h2{
     margin-left: 10px;
 }
 
+address{
+    margin-left: 10px;
+    color: white;
+    padding: 10px;
+}
+
+address a{
+    color: white;
+}
+
 .social{
       margin-top: 10px;
+      margin-left: 10px;
 }
 
 .social-logos{
