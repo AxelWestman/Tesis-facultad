@@ -198,6 +198,7 @@ address a{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        max-width: 1010px;
     }
 
     .prueba{
