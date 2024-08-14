@@ -228,6 +228,7 @@ address a{
     }
 
     .money-section{
+        width: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -7,12 +7,7 @@
 }
 
 body{
-    background-color:#4880f7;
-}
-
-main{
-    width: 100%;
-    height: 100vh;
+    background-color: #4880f7;
 }
 
 a{
@@ -65,40 +60,101 @@ a{
     margin-bottom: 10px
 }
 
-.sugerencia-section{
+.introduction-div{
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
 }
 
-.sugerencia-section h1{
-    font-family: "Pixelify Sans", sans-serif;
+.introduction-div h1{
     color: white;
     margin-bottom: 20px;
     font-size: 30px;
+    text-align: center;
 }
 
-.sugerencia-section p{
-    font-family: "Pixelify Sans", sans-serif;
+.introduction-div p{
+    text-align: center;
     font-optical-sizing: auto;
     font-weight: 400px;
     font-style: normal;
     font-size: 20px;
-    text-align:center;
     color: white;
+    padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.form-section{
+    width: 100%;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+form { 
+    max-width:420px; 
+    margin:0px auto; 
+    padding:15px;
+}
+
+.feedback-input {
+  color:black;
+  font-family: 'Pixelify Sans', Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #ffffff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #000000; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Pixelify Sans', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#ffffff;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
 footer{
+    margin-top: 30px;
     width: 100%;
     height: auto;
     background-color: black;
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    
     color: white;
 }
 
@@ -141,19 +197,30 @@ address a{
     margin-top: 15px;
 }
 
+@media (min-width: 768px){
+    footer{
+        bottom: 0;
+    }
+}
+
 @media (min-width: 1024px){
+
     body{
         background-image: url(../images/fondo\ web.png);
         background-size: contain;
     }
 
+
+
+
     main{
         width: 70%;
-        height: 100vh;
         background-color: #4880f7;
+        height: 100vh;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     #menu-hamburguesa{
@@ -175,6 +242,7 @@ address a{
         font-weight: 400px;
         font-style: normal;
         font-size: 20px;
+        margin-bottom: 0px;
     }
 
     li{
@@ -188,8 +256,36 @@ address a{
         text-shadow: 0px 6px 10px rgba(0,0,0,0.76);
     }
 
+    .introduction-div p{
+        width: 55%;
+    }
+
+    .introduction{
+        width: 100%;
+        background-color: #4880f7;
+    }
+
+    .form-section{
+        width: 100%;
+        background-color: #4880f7;
+        height: 24em;
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: initial;
+        bottom: 0;
+        color: white;
+        margin-top: 0px;
+        position: unset;
+    }
+
     footer h2{
         margin-top: 0px;
     }
+
+
 
 }
