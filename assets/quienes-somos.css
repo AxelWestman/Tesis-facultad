@@ -15,6 +15,10 @@ a{
     color: black;
 }
 
+main{
+    height: auto;
+}
+
 .nav-desktop{
     display: none;
 }
@@ -62,6 +66,7 @@ a{
 
 .about-section{
     width: 70%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,6 +157,18 @@ address a{
     margin-top: 15px;
 }
 
+@media (min-width: 768px) {
+    
+    .about-section{
+        height: 100vh;
+    }
+    
+    footer{
+        position:relative;
+        bottom: 0;
+    }
+}
+
 @media (min-width: 1024px){
 
     body{
@@ -205,6 +222,7 @@ address a{
         background-color: #4880f7;
         margin-top: 0;
         justify-content: flex-start;
+        height: auto;
     }
 
     .logo-container{
@@ -215,6 +233,11 @@ address a{
     .logo-container img{
         width: 80%;
         padding: 5px;
+    }
+
+    footer{
+        position:relative;
+        bottom: 0;
     }
 
 

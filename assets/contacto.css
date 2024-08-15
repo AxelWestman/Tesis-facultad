@@ -12,7 +12,7 @@ body{
 
 main{
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 a{
@@ -66,7 +66,8 @@ a{
 }
 
 .sugerencia-section{
-    width: 100%;
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,6 +92,17 @@ a{
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.sugerencias-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-logo{
+    width: 9em;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 footer{
@@ -141,6 +153,13 @@ address a{
     margin-top: 15px;
 }
 
+@media (min-width: 768px) {
+    footer{
+        position:absolute;
+        bottom: 0;
+    }
+}
+
 @media (min-width: 1024px){
     body{
         background-image: url(../images/fondo\ web.png);
@@ -186,6 +205,25 @@ address a{
         border: none;
         cursor: pointer;
         text-shadow: 0px 6px 10px rgba(0,0,0,0.76);
+    }
+
+    .sugerencias-box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+    }
+
+    .social-logo{
+        margin: 10px;
+        width: 11em;
+    }
+
+    footer{
+        position:relative;
+        bottom: 0;
     }
 
     footer h2{
