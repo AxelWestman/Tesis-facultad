@@ -152,7 +152,7 @@ footer{
     margin-top: 30px;
     width: 100%;
     height: auto;
-    background-color: black;
+    background-color: #006691;
     position: absolute;
     
     color: white;
@@ -274,7 +274,6 @@ address a{
     footer{
         width: 100%;
         height: auto;
-        background-color: black;
         position: initial;
         bottom: 0;
         color: white;
