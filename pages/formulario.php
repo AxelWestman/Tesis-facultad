@@ -1,8 +1,11 @@
 <?php
+
+
+
 //validamos datos del servidor
-$user = "root";
-$pass = "password";
-$host = "localhost";
+$user = $_ENV['DB_USER'];
+$pass = $_ENV['DB_PASSWORD'];;
+$host = $_ENV['DB_HOST'];;
 
 //conetamos al base datos
 $connection = mysqli_connect($host, $user, $pass);
@@ -20,7 +23,7 @@ if(!$connection)
   else
         {
             echo "<b><h3>Hemos conectado al servidor</h3></b>" ;
-            $datab = "legend_of_elda";
+            $datab = $_ENV['DB_NAME'];;
             //indicamos selecionar ala base datos
              $db = mysqli_select_db($connection,$datab);
 
