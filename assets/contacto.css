@@ -154,10 +154,18 @@ address a{
 }
 
 @media (min-width: 768px) {
-    footer{
-        position:absolute;
-        bottom: 0;
+    
+    main{
+        height: 41.125em;
     }
+    
+    .sugerencias-box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 360px;
+    }
+    
 }
 
 @media (min-width: 1024px){
@@ -213,7 +221,7 @@ address a{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        max-width: 500px;
+        width: 500px;
     }
 
     .social-logo{
