@@ -235,6 +235,14 @@ address a{
         padding: 5px;
     }
 
+    .social-logos img{
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    .social-logos img:hover{
+        transform: scale(1.3);
+    }
+
     footer{
         position:relative;
         bottom: 0;
