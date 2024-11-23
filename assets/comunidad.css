@@ -153,6 +153,11 @@ a{
     display: flex;
 }
 
+
+.fa-heart:hover{
+    cursor: pointer;
+}
+
 footer{
     width: 100%;
     height: auto;
